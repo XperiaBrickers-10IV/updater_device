@@ -1,0 +1,28 @@
+
+{
+        "response": [
+                {
+                        "maintainer": "muti605",
+                        "oem": "Redmi",
+                        "device": "Note 6 Pro",
+                        "filename": "VoidUI-Eternity-tulip-12.1-20220625-1224-OFFICIAL.zip",
+                        "download": "https://ppui.sidgdrive.workers.dev/0:/VoidUI-Eternity-tulip-12.1-20220625-1224-OFFICIAL.zip",
+                        "timestamp": 1656159714,
+                        "md5": "459fc465a20a7a724ffaa342be365851",
+                        "sha256": "bea43af78c238f4550d16a66b63b1d4dfc91b16222ded0f6fa2898429da234c4",
+                        "size": 1590391768,
+                        "version": Eternity,
+                        "buildtype": "Welcome to Eternity",
+                        "forum": "https://t.me/VoidUI",
+			            "firmware": "https://xiaomifirmwareupdater.com/firmware/tulip/",
+                        "modem": "",
+                        "bootloader": "",
+                        "recovery": "https://t.me/VoidUI_Tulip/20",
+			            "paypal": "",
+                        "telegram": "https://t.me/voidui_tulip",
+                        "dt": "https://github.com/VoidUI-Devices/device_xiaomi_tulip",
+                        "common-dt": "https://github.com/VoidUI-Devices/device_xiaomi_sdm660-common",
+                        "kernel": "https://github.com/VoidUI-Devices/kernel_xiaomi_sdm660"
+                }
+        ]
+}
