@@ -17,7 +17,7 @@
 			            "firmware": "https://xiaomifirmwareupdater.com/firmware/tulip/",
                         "modem": "",
                         "bootloader": "",
-                        "recovery": "https://t.me/VoidUI_Tulip/20",
+                        "recovery": "https://dl.twrp.me/tulip/",
 			            "paypal": "",
                         "telegram": "https://t.me/voidui_tulip",
                         "dt": "https://github.com/VoidUI-Devices/device_xiaomi_tulip",
