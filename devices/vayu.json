@@ -1,0 +1,24 @@
+{
+	"response": [
+		{
+			"maintainer": "Chandler_bing_here",
+			"oem": "Poco",
+			"device": "Poco X3 Pro",
+			"filename": "VoidUI-Eternity-vayu-12.1-20220701-0232-OFFICIAL.zip",
+			"download": "https://ppui.sidgdrive.workers.dev/0:/VoidUI-Eternity-vayu-12.1-20220701-0232-OFFICIAL.zip",
+			"timestamp": 1656133501,
+			"md5": "8b9b2a9c779cba34209820a3e39f9bb7",
+			"sha256": "fb203506ede5b5f762000da99e10daf1b8472c0c346fa52dc33fcaa67ea8a2f2",
+			"size": 2138051306,
+			"version": Eternity,
+			"buildtype": "Welcome to Eternity",
+			"forum": "https://t.me/VoidUI",
+			"firmware": "https://xiaomifirmwareupdater.com/archive/firmware/vayu/",
+			"recovery": "https://orangefox.download/device/vayu",
+			"paypal": "https://paypal.me/sanjeevstunner",
+			"telegram": "https://t.me/VoidUI_vayu",
+			"dt": "https://github.com/sanjeevstunner/device_xiaomi_vayu/tree/void",
+			"kernel": "https://github.com/Jebaitedneko/android_kernel_xiaomi_vayu/tree/r2"
+		}
+	]
+}
