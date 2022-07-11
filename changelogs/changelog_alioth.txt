@@ -1,53 +1,61 @@
 =====================================
-VoidUI Eternity - Initial Release
+VoidUI Darkness Edition Release
 =====================================
+- July Security Patch
+- Add support of manual changing volume steps (Settings - Sound - Volume Steps)
+- Add preference for toggling the wallpaper zooming animation
+- Update LTE+ icon as per new Silk design
+- SystemUI: Better QS detail clip animation
+- System: Implement background process killer 
+- Screenshot: Add support for window ignore secure
+- Improve scrolling cache
+- Disable various parts of Debugging
+- Backport libprocessgroup / cgroup v2 changes from Android 13 & Mainline
+- init: try converting writepid used with cgroups into task_profiles command
+- SystemUI: Use rounded corners in system UI
+- Settings: Add native debugging setting
+- SystemUI: Use new privacy indicators for location
+- Stopped auto-granting location to system browsers
+- PermissionController: Show up to 7 days of permission usage history
+- Screenshot: Add delete action chip intent
+- Merge latest ARM-software/optimized-routines
+- Import Bionic s from ARM-software & AOSPA
+- init: remove debug logging
+- Import Latest Translations from PE: Settings, FaceUnlock, TouchGestures, DeviceSettings
+- Camera2: Remove Unused Drawables, Remove duplications, Remove Help & Feedback
+- ART: dex2oat: Faster class pruning. 
+- ART: Force inlining in CodeInfo constructors. 
+- Bluetooth: Add support for showing battery level for AirPods series
+- Introduce App Lock
+- Improve and Update to latest version of AppLock improvements & fixes
+- Update our bootanimation, wallpaper
+- Fix additional System Permissions
+- Improve HWUI Perfomance
 
 =====================================
- ~ Rom side main features overview:
+Device Side:
 =====================================
-
-- Creation of VoidUI Project, initial version - Eternity
-- Entire ROM reupload to our new home - https://github.com/VoidUI
-- All Qualcomm / CAF repositories reuploaded to - https://github.com/VoidUI-CAF
-(This is AOSP Rom with all updated needed Dependencies to build for Qualcomm Devices)
-- Main CAF repositories were updated to LA.UM.9.12.r1-14300-SMxx50.0 | LA.QSSI.12.0.r1-07900-qssi.0
-- Import Snapdragon LLVM Clang 14.1.2 for Kernel Compilations
-- Initial release already having a lot of optimization for Frameworks, Bionic and other main parts of system
-- Added support of 24bit audio rom side
-- Added system side support of Multi-Gen LRU (Backport from Android T)
-- Added support of Smart Idle Maintaince Service with Latest upstreams (Backport from Android T)
-- Added support of our Updater (Based on crDroid updater with bringup for VoidUI)
-- Added deep sleep info in Settings - About Phone - Up time
-- Added keylayout mapping for Xbox360 compatible controllers
-- System frameworks were manually updated with latest changes from AOSP-Mainline, to provide latest updates for backend and best user experience
-- Removed part of unneeded debugging systemwide (And will be even more improved later)
-- Updated and Enabled by default USAP support for all devices
-- Added support of CCache for ROM compilation by default
-
-=====================================
- ~ Small Customizations overview:
-=====================================
-- Included all Basic required Customizations
-- Added support of Game Space (Settings - Apps - Game Space)
-- Added support of Full Screen Gestures (To hide pill entirely)
-- Added support of changing size of gestures navbar
-- Added Bluetooth, Wi-Fi, Mobile Data Panels
-- Added Screen Recorder Customizations (Show stop dot, Lower Quality for smaller size, Bigger File limit (up to 15GB), Skip 3 sec timer)
-- Added Platform and Ram info to Settings - About Phone - Model
-- Added support to disable Screenshot shutter sound
-- Added back support to set vibration haptics level
-- Added support of TalkBack accessibility service
-- Added support to show advanced details about Kernel by clicking on it (Settings - About Phone - Android Version - Kernel version)
-This will show Builder, Version of compiler used to compile kernel, Number of Rebuild (#1), Date of build
-- Added beta support of Black Theme (Settings - Display - Dark Theme - Use Black theme)
-- Added Hide of Sencitive info in Settings
-- Added option to Change between Pixel and AOSP Battery Provider (Requires close Settings from recents and open again to apply)
-- Added haptic feedback for qs tiles
-- Added LTE Only option
-- Added Autobrightness QS Tile
-- Added Animated cutout padding for QS Clock
-- Added Showing Android version in Settings as 12L
-
-=====================================
-~ And this is only short list of all changes of system, so best to install and try it by yourself :3
+- Fix Bluetooth Quick Pair
+- Switch to QTI Health Hal
+- Fixed status bar paddings
+- Update to Immensity v5.0.0-next
+- sm8250-common: 
+ Sepolicy: Further improve Mi_Thermald sepolicy
+ Sepolicy: Import & Improve qtidataservices Sepolicy
+ Rootdir: Remove unexported property trigger
+ Move audio.offload.gapless.enabled to system.props 
+ Enable Iorapd Readahead
+ Move device config props to kona.mk
+ Declare smart idle maint's period
+ BT: Enable persist.vendor.btstack.connect.peer_earbud Feature
+ Resync with DT & ADSP modules (aptX) from Miui MI 13.0.4.0 Alioth
+ Bluetooth: Drop non-existing file from prebuilts
+ Audio: Enforce stock AUDIO_FORMAT_PCM_8_24_BIT to primary input
+ Update all MediaConfigs from Miui Global Mi 13.0.4.0 Alioth
+sm8250-common: Updated blobs from Miui Global Mi 13.0.4.0 Alioth:
+ ADSP | Audio | CDSP | CNE | Configstore | Consumer IR | DPM | DRM (QSEECom) | DRM (OEM Crypto API) | DRM (Widevine) | DSP service | Embedded Secure Element power manager  | Feature enabler client | Gatekeeper | Graphics (Adreno firmware) | GNSS | IMS | IPA firmware | IRQ balance | Keymaster | Listen | Media | Mink-Lowi Interface daemon | Mlipay | Neural networks | NFC | nv_mac (MAC Generator) | OMX | Peripheral manager | Power-off alarm | QCC | QMI | RIL | Secure element | Service Tracker QTI | Snapdragon Computer Vision Engine | Soter | Time services | Trusted Execution Environment connector | Trusted User Interface | VPP | WiFi Display | WiFi  
+Alioth: Updated blobs from Miui MI 13.0.4.0 Alioth:
+ ACDB | ADSP | Audio Hardware | Camera | Charger | Fingerprint | Sensor calibrate | Sensors | Thermal configs | Thermal engine | MiThermald engine | Vibrator (Xiaomi)
+- Alioth: Import all ADSP modules
+- Alioth: Import missing audiohalext-impl and libaudioconfigstore
 =====================================
