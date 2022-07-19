@@ -1,53 +1,16 @@
 =====================================
-VoidUI Eternity - Initial Release
+VoidUI Darkness 
 =====================================
+ - [Unsure] Build some RIL libs to overcome call failing issues
+ - Disable some GMS components | Results in better wifi speeds and battery backup 
+ - Tune zRAM for better performance
+ - Add fastboot[in recovery] mode to advanced reboot menu 
+ - Upstreamed Pixel Launcher MOD to 9.8 | Full changelogs here -> https://www.pling.com/p/1720688/
+ - Removed Pixel Launcher MODs app, as it requires root
+ - Fixed greyed out USB actions in notifications when connected to PC
+ - Revert "Set Recommended Night Display Color Temperature as default"
 
 =====================================
- ~ Rom side main features overview:
+VoidUI Eternity 
 =====================================
-
-- Creation of VoidUI Project, initial version - Eternity
-- Entire ROM reupload to our new home - https://github.com/VoidUI
-- All Qualcomm / CAF repositories reuploaded to - https://github.com/VoidUI-CAF
-(This is AOSP Rom with all updated needed Dependencies to build for Qualcomm Devices)
-- Main CAF repositories were updated to LA.UM.9.12.r1-14300-SMxx50.0 | LA.QSSI.12.0.r1-07900-qssi.0
-- Import Snapdragon LLVM Clang 14.1.2 for Kernel Compilations
-- Initial release already having a lot of optimization for Frameworks, Bionic and other main parts of system
-- Added support of 24bit audio rom side
-- Added system side support of Multi-Gen LRU (Backport from Android T)
-- Added support of Smart Idle Maintaince Service with Latest upstreams (Backport from Android T)
-- Added support of our Updater (Based on crDroid updater with bringup for VoidUI)
-- Added deep sleep info in Settings - About Phone - Up time
-- Added keylayout mapping for Xbox360 compatible controllers
-- System frameworks were manually updated with latest changes from AOSP-Mainline, to provide latest updates for backend and best user experience
-- Removed part of unneeded debugging systemwide (And will be even more improved later)
-- Updated and Enabled by default USAP support for all devices
-- Added support of CCache for ROM compilation by default
-
-=====================================
- ~ Small Customizations overview:
-=====================================
-- Included all Basic required Customizations
-- Added support of Game Space (Settings - Apps - Game Space)
-- Added support of Full Screen Gestures (To hide pill entirely)
-- Added support of changing size of gestures navbar
-- Added Bluetooth, Wi-Fi, Mobile Data Panels
-- Added Screen Recorder Customizations (Show stop dot, Lower Quality for smaller size, Bigger File limit (up to 15GB), Skip 3 sec timer)
-- Added Platform and Ram info to Settings - About Phone - Model
-- Added support to disable Screenshot shutter sound
-- Added back support to set vibration haptics level
-- Added support of TalkBack accessibility service
-- Added support to show advanced details about Kernel by clicking on it (Settings - About Phone - Android Version - Kernel version)
-This will show Builder, Version of compiler used to compile kernel, Number of Rebuild (#1), Date of build
-- Added beta support of Black Theme (Settings - Display - Dark Theme - Use Black theme)
-- Added Hide of Sencitive info in Settings
-- Added option to Change between Pixel and AOSP Battery Provider (Requires close Settings from recents and open again to apply)
-- Added haptic feedback for qs tiles
-- Added LTE Only option
-- Added Autobrightness QS Tile
-- Added Animated cutout padding for QS Clock
-- Added Showing Android version in Settings as 12L
-
-=====================================
-~ And this is only short list of all changes of system, so best to install and try it by yourself :3
-=====================================
+ - Initial Release
