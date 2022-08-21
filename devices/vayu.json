@@ -4,24 +4,21 @@
 			"maintainer": "chandlerbigg",
 			"oem": "Poco",
 			"device": "Poco X3 Pro",
-			"filename": "VoidUI-Darkness-vayu-12.1-20220718-0056-OFFICIAL.zip",
-			"download": "https://voidui.sidgdrive.workers.dev/0:/VoidUI-Darkness-vayu-12.1-20220718-0056-OFFICIAL.zip",
-			"timestamp": 1658105476,
-			"md5": "30ed1fb68a01bf71336293b419083d80",
-			"sha256": "b74259a4873473e0ac9a70d56dccf0458dd0b880a14c4a020444f27d97d10667",
-			"size": 2063937625,
+			"filename": "VoidUI-Darkness-vayu-12.1-20220820-0646-OFFICIAL.zip",
+			"download": "https://ppui.sidgdrive.workers.dev/0:/VoidUI-Darkness-vayu-12.1-20220820-0646-OFFICIAL.zip",
+			"timestamp": 1660977950,
+			"md5": "e9913bb6e4ddc59f77cddcd8d49ec22d",
+			"sha256": "cf1d4eb1b8faaf9f0cbad35e770cc97a1216862275fabc25e9735bb9746eee6c",
+			"size": 2073281775,
 			"version": Darkness,
 			"buildtype": "Montly Stable",
 			"forum": "https://t.me/VoidUI",
 			"firmware": "https://xiaomifirmwareupdater.com/archive/firmware/vayu/",
-			"modem": "",
-			"bootloader": "",
 			"recovery": "https://orangefox.download/device/vayu",
 			"paypal": "https://paypal.me/sanjeevstunner",
 			"telegram": "https://t.me/VoidUI_vayu",
 			"dt": "https://github.com/sanjeevstunner/device_xiaomi_vayu/tree/void",
-			"common-dt": "",
-			"kernel": "https://github.com/Jebaitedneko/android_kernel_xiaomi_vayu/tree/r2"
+			"kernel": "https://github.com/aLnProject/kernel_xiaomi_vayu"
 		}
 	]
 }
