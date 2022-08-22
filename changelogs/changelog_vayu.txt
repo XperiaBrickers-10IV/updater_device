@@ -1,7 +1,15 @@
 =====================================
+VoidUI Darkness - August 
+=====================================
+ - Revert back to default paddings and margins 
+ - Rebase to aLn kernel 
+ - Upstream Pixel Launcher MOD to v10.8 
+ - Import full set of audio configs from MIUI EU 13.0.5 
+
+=====================================
 VoidUI Darkness 
 =====================================
- - [Unsure] Build some RIL libs to overcome call failing issues
+ - Build some RIL libs to overcome call failing issues
  - Disable some GMS components | Results in better wifi speeds and battery backup 
  - Tune zRAM for better performance
  - Add fastboot[in recovery] mode to advanced reboot menu 
