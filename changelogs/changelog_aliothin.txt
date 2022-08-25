@@ -1,61 +1,52 @@
 =====================================
-VoidUI Darkness Edition Release
+VoidUI Supernova Edition Release | Final Android 12.1.0 Release
 =====================================
-- July Security Patch
-- Add support of manual changing volume steps (Settings - Sound - Volume Steps)
-- Add preference for toggling the wallpaper zooming animation
-- Update LTE+ icon as per new Silk design
-- SystemUI: Better QS detail clip animation
-- System: Implement background process killer 
-- Screenshot: Add support for window ignore secure
-- Improve scrolling cache
-- Disable various parts of Debugging
-- Backport libprocessgroup / cgroup v2 changes from Android 13 & Mainline
-- init: try converting writepid used with cgroups into task_profiles command
-- SystemUI: Use rounded corners in system UI
-- Settings: Add native debugging setting
-- SystemUI: Use new privacy indicators for location
-- Stopped auto-granting location to system browsers
-- PermissionController: Show up to 7 days of permission usage history
-- Screenshot: Add delete action chip intent
-- Merge latest ARM-software/optimized-routines
-- Import Bionic s from ARM-software & AOSPA
-- init: remove debug logging
-- Import Latest Translations from PE: Settings, FaceUnlock, TouchGestures, DeviceSettings
-- Camera2: Remove Unused Drawables, Remove duplications, Remove Help & Feedback
-- ART: dex2oat: Faster class pruning. 
-- ART: Force inlining in CodeInfo constructors. 
-- Bluetooth: Add support for showing battery level for AirPods series
-- Introduce App Lock
-- Improve and Update to latest version of AppLock improvements & fixes
-- Update our bootanimation, wallpaper
-- Fix additional System Permissions
-- Improve HWUI Perfomance
-
+Alioth/In - Clean installation from Darkness version Mandatory
+=====================================
+- August Security Patch 
+- Merge Android 12.1.0 Release 22
+- Add Crowdin Platform Support
+- Redesign Settings/ About Phone / Android Version
+- Update Gapps, Updater and GameSpace to latest Available version
+- Import system/update_engine changes from crDroid
+- Improvements of SystemUI smoothness and responsiveness
+- Various updates for Freezer/OOM
+- Changing max SampleRate limits for raw audio decoder to 192000
+- Added rounded corners to activity open/close animation
+- Frameworks/base & Settings: Add strict standby policy
+- Frameworks/base & Settings: Add force background freezer
+- ART backend Improvements, including update external_vixl to Mainline
+* VIXL Dissassembler Integration Upgrade May. 2022
+- PixelPropsUtils: Add Fortnite 90FPS | Hide Tower of Fantasy as Mi11 Ultra
+- Update Hardware/xiaomi to latest available version
+- BPF Loader | Custom Version: Totally remove logspam & fixes
+- external/faceunlock:
+faceunlock: Fix naming conflict with vendor libs
+faceunlock: Preserve original lib names using stem
+- Add support of loading Dolby ac3, eac3, eac3-joc and ac4 Codecs
+- Add ReTicker to Settings (Settings - Notifications - reTicker)
+And way more backend improvements and fixes
+================================
+- CAF Repos updates:
+* hardware_qcom-caf_sm8250_display: 
+Clean rebase on top of TAG: LA.UM.9.12.r1-14500-SMxx50.0 / Merge LA.UM.9.12.r1-14600-SMxx50.QSSI13.0
+* hardware_qcom-caf_sm8250_audio: Clean rebase on top of TAG: LA.UM.9.12.r1-14500-SMxx50.0
+* hardware_qcom-caf_sm8250_media: Clean rebase on top of TAG: LA.UM.9.12.r1-14500-SMxx50.0
+* vendor_qcom_opensource_commonsys-intf_display: Merge tag LA.QSSI.12.0.r1-08500-qssi.0
+* vendor_qcom_opensource_commonsys_display: Merge tag LA.QSSI.12.0.r1-08500-qssi.0
+* vendor_qcom_opensource_audio-hal_st-hal: Rebase on TAG: LA.UM.9.14.r1-20000.01-LAHAINA.QSSI12.0
+* hardware_qcom-caf_wlan - Reimport from AOSPA / Merge TAG: LA.UM.9.12.r1-14400.02-SMxx50.QSSI13.0
+* vendor_qcom_opensource_commonsys_display -  Merge TAG: LA.QSSI.12.0.r1-08500-qssi.0
+* vendor_qcom_opensource_commonsys-intf_display - Merge TAG: TAG: LA.QSSI.12.0.r1-08500-qssi.0
 =====================================
 Device Side:
 =====================================
-- Fix Bluetooth Quick Pair
-- Switch to QTI Health Hal
-- Fixed status bar paddings
-- Update to Immensity v5.0.0-next
-- sm8250-common: 
- Sepolicy: Further improve Mi_Thermald sepolicy
- Sepolicy: Import & Improve qtidataservices Sepolicy
- Rootdir: Remove unexported property trigger
- Move audio.offload.gapless.enabled to system.props 
- Enable Iorapd Readahead
- Move device config props to kona.mk
- Declare smart idle maint's period
- BT: Enable persist.vendor.btstack.connect.peer_earbud Feature
- Resync with DT & ADSP modules (aptX) from Miui MI 13.0.4.0 Alioth
- Bluetooth: Drop non-existing file from prebuilts
- Audio: Enforce stock AUDIO_FORMAT_PCM_8_24_BIT to primary input
- Update all MediaConfigs from Miui Global Mi 13.0.4.0 Alioth
-sm8250-common: Updated blobs from Miui Global Mi 13.0.4.0 Alioth:
- ADSP | Audio | CDSP | CNE | Configstore | Consumer IR | DPM | DRM (QSEECom) | DRM (OEM Crypto API) | DRM (Widevine) | DSP service | Embedded Secure Element power manager  | Feature enabler client | Gatekeeper | Graphics (Adreno firmware) | GNSS | IMS | IPA firmware | IRQ balance | Keymaster | Listen | Media | Mink-Lowi Interface daemon | Mlipay | Neural networks | NFC | nv_mac (MAC Generator) | OMX | Peripheral manager | Power-off alarm | QCC | QMI | RIL | Secure element | Service Tracker QTI | Snapdragon Computer Vision Engine | Soter | Time services | Trusted Execution Environment connector | Trusted User Interface | VPP | WiFi Display | WiFi  
-Alioth: Updated blobs from Miui MI 13.0.4.0 Alioth:
- ACDB | ADSP | Audio Hardware | Camera | Charger | Fingerprint | Sensor calibrate | Sensors | Thermal configs | Thermal engine | MiThermald engine | Vibrator (Xiaomi)
-- Alioth: Import all ADSP modules
-- Alioth: Import missing audiohalext-impl and libaudioconfigstore
+- Introducing Miui Dolby Engine with OnePlus DAXUI App
+- Inherit Updatable Google Play APEX 
+- Inherit CarrierSettings from Google Pixel
+- Device and Vendor trees clean rework with cleanup
+- Disable Dolby Volume leveler
+- Update Device Trees and vendor from Miui 13.0.7.0 Europe Alioth
+- Enable burnin protection in status bar
+- Update to Immensity V6.0.0
 =====================================
