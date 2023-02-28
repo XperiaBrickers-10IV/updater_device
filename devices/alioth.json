@@ -1,0 +1,27 @@
+{
+	"response": [
+		{
+			"maintainer": "johnmart19",
+			"oem": "Poco",
+			"device": "Redmi K40/ POCO F3/ Mi 11x",
+			"filename": "VoidUI-Tiramisu-alioth-13.0-20230228-1208-OFFICIAL.zip",
+			"download": "https://sourceforge.net/projects/voidui/files/alioth/Releases/VoidUI-Tiramisu-alioth-13.0-20230228-1208-OFFICIAL.zip/download",
+			"timestamp": 1677586079,
+			"md5": "2a3fb3c841c76c59da5213b3ddb1c1c3",
+			"sha256": "99bd94ed61bee9f1df32ef0b8273c31cc420c3d359f53325397ae20365b6e896",
+			"size": 1689022352,
+			"version": Tiramisu,
+			"buildtype": "Android 13 QPR1",
+			"forum": "https://t.me/VoidUI",
+			"firmware": "https://xiaomifirmwareupdater.com/firmware/alioth/",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "https://eu.dl.twrp.me/alioth/",
+			"paypal": "https://www.patreon.com/johnmart19",
+			"telegram": "https://t.me/voidui_alioth",
+			"dt": "https://github.com/VoidUI-Devices/device_xiaomi_alioth",
+			"common-dt": "https://github.com/VoidUI-Devices/device_xiaomi_sm8250-common",
+			"kernel": "https://github.com/VoidUI-Devices/kernel_xiaomi_sm8250"
+		}
+	]
+}
