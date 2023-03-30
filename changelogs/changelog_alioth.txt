@@ -1,4 +1,25 @@
 ========================
+VoidUI Tiramisu Project March Update Release
+========================
+Based on Android 13 QPR2 Release 35
+========================
+Entire project clean restart due to QPR1 -> QPR2 Upgrade!
+========================
+* Includes GameSpace, our Updater, GameProps, and way more!
+* Fixed Full screen apps settings page
+* Enabled System integration of Jetpack Compose
+* Enabled additional Pixel Exclusive features
+* Additional underhood imrpovements for better UI and UX
+* And way more...
+========================
+Device Side changes:
+========================
+* Added support of LiveDisplay, moved HBM to Sunlight Adjustment
+* Fixed work of Thermal engine & profiles, now all apps and games might work way better
+* Includes latest updates from Miui 14.0.7.0 EU updates (Miui 14.x firmware required)
+* Includes latest version of Redline kernel with a lot of improvements for best work of device
+* And way more underhood changes to improve User Experience and Stability for daily drive
+========================
 VoidUI Tiramisu Project is back!
 ========================
 Based on Android 13 QPR1 Release 30
