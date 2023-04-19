@@ -1,4 +1,24 @@
 ========================
+VoidUI Tiramisu Project April Update Release
+========================
+Based on Android 13 QPR2 Release 41
+========================
+Changelog:
+========================
+* Added UMO turbulence noise and surface ripple for Media Player
+* Added support of scheduling always on display 
+* Added Optimized Monet Engine customizations support:
+- Theme styles selection
+- Color Source selection
+- Accent Colors selection
+- Accent Background Colors selection
+- Luminance and Chroma values tunings and ability to apply them for Background Tint
+* Added support of Black Theme
+[Warning! It requires to do not disable "Gesture Indicator" option to work correctly
+P.s Works fine with Immersive navigation option]
+* Fix issues with GameSpace Screen Recording option
+* Includes PE Plus April patch fixes and Gapps update
+========================
 VoidUI Tiramisu Project March Update Release
 ========================
 Based on Android 13 QPR2 Release 35
